@@ -7433,7 +7433,7 @@ fieldset:disabled .btn {
 }
 
 .justify-content-between {
-    justify-content: space-between !important;
+    justify-content: center;
 }
 
 .justify-content-around {
@@ -11674,4 +11674,8 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 15rem;
+}
+
+footer {
+    text-align: center;
 }
