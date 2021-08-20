@@ -1390,7 +1390,11 @@ progress {
 
     .row-cols-lg-4 > * {
         flex: 0 0 auto;
+<<<<<<< HEAD
         width: 10%;
+=======
+        width: 25%;
+>>>>>>> 9ebf7071d99e7340b5431b4e5ab34f853ea2a927
     }
 
     .row-cols-lg-5 > * {
@@ -7433,7 +7437,11 @@ fieldset:disabled .btn {
 }
 
 .justify-content-between {
+<<<<<<< HEAD
     justify-content: center;
+=======
+    justify-content: space-between !important;
+>>>>>>> 9ebf7071d99e7340b5431b4e5ab34f853ea2a927
 }
 
 .justify-content-around {
@@ -11675,6 +11683,7 @@ html {
     background-repeat: no-repeat;
     min-height: 15rem;
 }
+<<<<<<< HEAD
 
 footer {
     text-align: center;
@@ -11766,3 +11775,5 @@ footer {
         width: 100%;
     }
 }
+=======
+>>>>>>> 9ebf7071d99e7340b5431b4e5ab34f853ea2a927
