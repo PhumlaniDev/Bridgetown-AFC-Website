@@ -18,4 +18,7 @@ The Bridgetown AFC website was by Phumlani Arendse & Dale Van De Merwe as a way 
 ## Badge
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bfa52444-fb5e-4a6e-8203-f04f41ba879b/deploy-status)](https://app.netlify.com/sites/bridgetown-afc/deploys)
+
+## Tech
+
 **Client:** HTML, CSS, Bootstrap, Javascript
