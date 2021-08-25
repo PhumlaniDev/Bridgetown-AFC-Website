@@ -1,67 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-
-    <title>Modern Business - Start Bootstrap Template</title>
-    <!-- Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-</head>
-
-<body class="d-flex flex-column">
-    <main class="flex-shrink-0">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-5">
-                <a class="navbar-brand" href="index.html">
-                    <img class="logo" src="/assets/images/Bridgetown AFC Logo - 2.png" alt="BAFC logo" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="gallery.html">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Gallery section-->
-        <section class="bg-light py-5">
-            <div class="container px-5 my-5">
-                <div class="text-center mb-5">
-                    <h1 class="fw-bolder">Brigdetown AFC</h1>
-                    <p class="lead fw-normal text-muted mb-0">
-                        Strength in Unity
-                    </p>
-                </div>
-
-                <div class="album py-5 bg-light">
+<div class="album py-5 bg-light">
                     <div class="container">
                         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                             <!-- row 1 -->
@@ -70,10 +7,9 @@
                                     <img id="myImg" class="
                                                 bd-placeholder-img
                                                 card-img-top
-                                                img-thumbnail"
-                                        src="/assets/images/Bridgetown AFC 1st Team 2021 - 330x250.png"
-                                        alt="BACF 1st Team" onclick="openModal();currentSlide(1)"
-                                        class="hover-shadow" />
+                                                img-thumbnail
+                                            " src="/assets/images/Bridgetown AFC 1st Team 2021 - 330x250.png"
+                                        alt="BACF 1st Team" />
 
                                     <div class="card-body">
                                         <p class="card-text">
@@ -91,10 +27,9 @@
                                     <img id="myImg" class="
                                                 bd-placeholder-img
                                                 card-img-top
-                                                img-thumbnail"
-                                        src="/assets/images/Bridgetown AFC 1st Throwback - 330x250.png"
-                                        alt="BACF 1st Team" onclick="openModal();currentSlide(2)"
-                                        class="hover-shadow" />
+                                                img-thumbnail
+                                            " src="/assets/images/Bridgetown AFC 1st Throwback - 330x250.png"
+                                        alt="BACF 1st Team" />
 
                                     <div class="card-body">
                                         <p class="card-text">
@@ -112,9 +47,9 @@
                                     <img id="myImg" class="
                                                 bd-placeholder-img
                                                 card-img-top
-                                                img-thumbnail"
-                                        src="/assets/images/Bridgetown AFC Legends - 330x250.png" alt="BACF 1st Team"
-                                        onclick="openModal();currentSlide(3)" class="hover-shadow" />
+                                                img-thumbnail
+                                            " src="/assets/images/Bridgetown AFC Legends - 330x250.png"
+                                        alt="BACF 1st Team" />
 
                                     <div class="card-body">
                                         <p class="card-text">
@@ -134,9 +69,9 @@
                                     <img id="myImg" class="
                                                 bd-placeholder-img
                                                 card-img-top
-                                                img-thumbnail"
-                                        src="/assets/images/Bridgetown AFC Over 40s - 330x250.png" alt="BACF 1st Team"
-                                        onclick="openModal();currentSlide(4)" class="hover-shadow" />
+                                                img-thumbnail
+                                            " src="/assets/images/Bridgetown AFC Over 40s - 330x250.png"
+                                        alt="BACF 1st Team" width="250" height="250" />
 
                                     <div class="card-body">
                                         <p class="card-text">
@@ -154,9 +89,9 @@
                                     <img id="myImg" class="
                                                 bd-placeholder-img
                                                 card-img-top
-                                                img-thumbnail"
-                                        src="/assets/images/Bridgetown AFC under 16 - 330x250.png" alt="BACF 1st Team"
-                                        onclick="openModal();currentSlide(5)" class="hover-shadow" />
+                                                img-thumbnail
+                                            " src="/assets/images/Bridgetown AFC under 16 - 330x250.png"
+                                        alt="BACF 1st Team" width="250" height="250" />
                                     <div class="card-body">
                                         <p class="card-text">
                                             This is a wider card with
@@ -173,10 +108,9 @@
                                     <img id="myImg" class="
                                                 bd-placeholder-img
                                                 card-img-top
-                                                img-thumbnail"
-                                        src="/assets/images/Bridgetown AFC Womens League - 330x250.png"
-                                        alt="BACF 1st Team" onclick="openModal();currentSlide(6)"
-                                        class="hover-shadow" />
+                                                img-thumbnail
+                                            " src="/assets/images/Bridgetown AFC Womens League - 330x250.png"
+                                        alt="BACF 1st Team" width="250" height="250" />
 
                                     <div class="card-body">
                                         <p class="card-text">
@@ -198,8 +132,7 @@
                                                 card-img-top
                                                 img-thumbnail
                                             " src="/assets/images/Bridgetown AFC Full Squad Juniors - 330x250.png"
-                                        alt="BACF 1st Team" onclick="openModal();currentSlide(7)"
-                                        class="hover-shadow" />
+                                        alt="BACF 1st Team" width="250" height="250" />
 
                                     <div class="card-body">
                                         <p class="card-text">
@@ -219,8 +152,7 @@
                                                 card-img-top
                                                 img-thumbnail
                                             " src="/assets/images/Bridgetown AFC with Coach - 330x250.png"
-                                        alt="BACF 1st Team" onclick="openModal();currentSlide(8)"
-                                        class="hover-shadow" />
+                                        alt="BACF 1st Team" width="250" height="250" />
 
                                     <div class="card-body">
                                         <p class="card-text">
@@ -240,8 +172,7 @@
                                                 card-img-top
                                                 img-thumbnail
                                             " src="/assets/images/Bridgetown AFC Girls Training - 330x250.png"
-                                        alt="BACF 1st Team" onclick="openModal();currentSlide(9)"
-                                        class="hover-shadow" />
+                                        alt="BACF 1st Team" width="250" height="250" />
 
                                     <div class="card-body">
                                         <p class="card-text">
@@ -263,8 +194,7 @@
                                                 card-img-top
                                                 img-thumbnail
                                             " src="/assets/images/Bridgetown AFC Medals & Thropies - 330x250.png"
-                                        alt="BACF 1st Team" onclick="openModal();currentSlide(10)"
-                                        class="hover-shadow" />
+                                        alt="BACF 1st Team" width="250" height="250" />
 
                                     <div class="card-body">
                                         <p class="card-text">
@@ -284,8 +214,7 @@
                                                 card-img-top
                                                 img-thumbnail
                                             " src="/assets/images/Bridgetown AFC Feeding Scheme - 330x250.png"
-                                        alt="BACF 1st Team" onclick="openModal();currentSlide(11)"
-                                        class="hover-shadow" />
+                                        alt="BACF 1st Team" width="250" height="250" />
 
                                     <div class="card-body">
                                         <p class="card-text">
@@ -305,8 +234,7 @@
                                                 card-img-top
                                                 img-thumbnail
                                             " src="/assets/images/Bridgetown AFC 30th Aniversary - 330x250.png"
-                                        alt="BACF 1st Team" onclick="openModal();currentSlide(12)"
-                                        class="hover-shadow" />
+                                        alt="BACF 1st Team" width="250" height="250" />
 
                                     <div class="card-body">
                                         <p class="card-text">
@@ -328,8 +256,7 @@
                                                 card-img-top
                                                 img-thumbnail
                                             " src="/assets/images/Bridgetown AFC Youth - 330x250.png"
-                                        alt="BACF 1st Team" onclick="openModal();currentSlide(13)"
-                                        class="hover-shadow" />
+                                        alt="BACF 1st Team" width="250" height="250" />
 
                                     <div class="card-body">
                                         <p class="card-text">
@@ -349,8 +276,7 @@
                                                 card-img-top
                                                 img-thumbnail
                                             " src="/assets/images/Bridgetown AFC Juniors in Play - 330x250.png"
-                                        alt="BACF 1st Team" onclick="openModal();currentSlide(14)"
-                                        class="hover-shadow" />
+                                        alt="BACF 1st Team" width="250" height="250" />
 
                                     <div class="card-body">
                                         <p class="card-text">
@@ -365,123 +291,5 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
-
-                <!-- modal -->
-                <div id="myModal" class="modal">
-                    <span class="close cursor" onclick="closeModal()">&times;</span>
-                    <div class="modal-content">
-                        <div class="mySlides">
-                            <div class="numbertext">1 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC 1st Team 2021 - Original Image.jpg"
-                                style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">2 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC 1st Throwback - Original Image.jpg"
-                                style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">3 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC Legends - Original Image.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">4 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC Over 40s - Original Image.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">5 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC under 16 - Original Image.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">6 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC Women League - Original Image.jpg"
-                                style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">7 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC Full Squad Juniors - Original Image.jpg"
-                                style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">8 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC with Coach - Original Image.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">9 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC Girls Training - Original Image.jpg"
-                                style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">10 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC Medals & Thropies - Original Image.jpg"
-                                style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">11 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC Feeding Scheme - Original Image.jpg"
-                                style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">12 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC 30th Aniversary - Original Image.jpg"
-                                style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">13 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC Youth -Original.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">14 / 14</div>
-                            <img src="/assets/images/Bridgetown AFC Juniors in Play - 330x250.png" style="width:100%">
-                        </div>
-                        <!-- Next/previous controls -->
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                        <!-- Caption text -->
-                        <div class="caption-container">
-                            <p id="caption"></p>
-                        </div>
-                    </div>
-                </div>
-        </section>
-    </main>
-
-    <!-- Footer-->
-    <footer class="bg-dark py-4 mt-auto">
-        <div class="container px-5">
-            <div class="
-                        row
-                        align-items-center
-                        justify-content-between
-                        flex-column flex-sm-row
-                    ">
-                <div class="small m-0 text-white">
-                    Copyright 2021. All Rights Reserved. Designed by Dale
-                    Van De Merwe & Phumlani Arendse.
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="/js/scripts.js"></script>
-    <!-- <script src="js/scripts.js"></script> -->
-</body>
-
-</html>
