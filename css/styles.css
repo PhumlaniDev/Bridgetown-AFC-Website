@@ -11680,10 +11680,6 @@ footer {
     text-align: center;
 }
 
-a {
-    color: white;
-}
-
 .row > .column {
     padding: 0 8px;
 }
@@ -11807,4 +11803,9 @@ img.hover-shadow {
 
 .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#scroll-target {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
 }
