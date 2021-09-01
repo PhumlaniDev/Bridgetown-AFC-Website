@@ -1444,7 +1444,7 @@ progress {
 
   .col-lg-8 {
     flex: 0 0 auto;
-    width: 66.66666667%;
+    width: 100%;
   }
 
   .col-lg-9 {
@@ -7428,9 +7428,9 @@ fieldset:disabled .btn {
   justify-content: flex-end !important;
 }
 
-.justify-content-center {
+/* .justify-content-center {
   justify-content: center !important;
-}
+} */
 
 .justify-content-between {
   justify-content: center;
@@ -7834,7 +7834,6 @@ fieldset:disabled .btn {
 }
 
 .py-5 {
-  padding-top: 3rem !important;
   padding-bottom: 3rem !important;
 }
 
@@ -11666,6 +11665,7 @@ html {
 
 footer {
   text-align: center;
+  bottom: 0;
 }
 
 .row > .column {
@@ -11795,5 +11795,4 @@ img.hover-shadow {
 
 #scroll-target {
   padding-right: 3rem !important;
-  padding-left: 3rem !important;
 }
