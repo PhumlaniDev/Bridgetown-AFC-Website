@@ -4301,7 +4301,7 @@ fieldset:disabled .btn {
 }
 
 .navbar {
-	position: relative;
+	position: fixed;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -4309,6 +4309,7 @@ fieldset:disabled .btn {
 	justify-content: space-between;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
+	z-index: 1;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -11843,4 +11844,8 @@ img.hover-shadow {
 .em p {
 	font-size: 28px;
 	margin: 0;
+}
+
+.album {
+	overflow: hidden;
 }
