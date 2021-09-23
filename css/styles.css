@@ -11849,3 +11849,9 @@ img.hover-shadow {
 .album {
 	overflow: hidden;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+	height: fit-content;
+	margin: auto;
+}
