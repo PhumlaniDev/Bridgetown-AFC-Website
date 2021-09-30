@@ -11815,37 +11815,6 @@ img.hover-shadow {
 	padding-bottom: 9.5rem !important;
 }
 
-.social-cards a {
-	text-decoration: none;
-	color: #000;
-}
-
-.fb {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	position: relative;
-	width: 100%;
-}
-
-.fb p {
-	font-size: 28px;
-	margin: 0;
-}
-
-.em {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	position: relative;
-	width: 100%;
-}
-
-.em p {
-	font-size: 28px;
-	margin: 0;
-}
-
 .album {
 	overflow: hidden;
 }
